@@ -60,8 +60,10 @@ services:
 
 volumes:
   postgres_data:
+    name: xwiki_postgres_data
     driver: local
   xwiki_data:
+    name: xwiki_data
     driver: local
 
 networks:
